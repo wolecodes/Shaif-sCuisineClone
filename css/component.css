@@ -1,0 +1,38 @@
+.nav{
+    padding: 1.25rem 0;
+}
+.nav__icon, .nav__close, .nav__bgOverlay{
+    display: none;
+}
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__list{
+    list-style: none;
+}
+.nav__list li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+.nav__list .nav__link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--black-2);
+    padding: 0.5rem;
+}
+.nav__list:hover .nav__link{
+    color: var(--green1);
+}
+.btn{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+.primary-btn{
+    background-color: var(--green1);
+    color: var(--white-1);
+}
