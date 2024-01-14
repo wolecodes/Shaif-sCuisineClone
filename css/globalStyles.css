@@ -16,6 +16,7 @@ html{
 body{
     background-color: var(--lightGreen-2);
     overflow-x: hidden;
+    margin: 0;
 }
 p{
     font-family: 'Raleway', sans-serif;

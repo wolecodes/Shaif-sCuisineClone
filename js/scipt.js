@@ -5,15 +5,14 @@ const navList = document.querySelector(".nav__list");
 
 const navOpen = () =>{
     navList.classList.add('show');
-    navBgOverlay.classList.add("active")
     document.body.style= 'visibility: visible; height: 100vh; width:100vm; overflow: hidden';
 }
 
 //function for close navclose icon
 
 const navClose = () => {
-    navList.classList.remove("show");
-    document.style ='visibility: visible; height: 100vh width 100vm; overflow: hidden';
+    navList.classList.remove('show');
+    document.style ='visibility: hidden; height: 100vh width 100vm; overflow: hidden';
 
 }
 
@@ -21,5 +20,5 @@ const navClose = () => {
 
 
 
-navIconEL.addEventListener('click', navOpen())
-navCloseIcon.addEventListener('click', navClose());
+navIconEL.addEventListener('click', navOpen);
+navCloseIcon.addEventListener('click', navClose);

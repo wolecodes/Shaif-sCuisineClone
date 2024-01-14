@@ -68,16 +68,17 @@
         width: 80%;
         background: var( --lightGreen-1);
         margin: 0;
-        padding-right: 2.8rem;
+        padding-right: 3rem;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         transform: translateX(0);
         overflow: hidden;
-        transition: 0.3s ease-out transform;
+        transition: 0.3s ease-in transform;
 
     }
     .nav__list.show{
         transform: translate(-100%);
     }
+
 }
