@@ -22,7 +22,7 @@
     color: var(--black-2);
     padding: 0.5rem;
 }
-.nav__list:hover .nav__link{
+.nav__list li:hover .nav__link{
     color: var(--green1);
 }
 .btn{
@@ -35,4 +35,49 @@
 .primary-btn{
     background-color: var(--green1);
     color: var(--white-1);
+}
+@media only screen and (max-width: 768px){
+    .nav{
+        position: relative;
+    }
+    .nav__icon{
+        display: block;
+    }
+    .nav__icon svg , .nav__close svg{
+        pointer-events: none;
+        width: 35px;
+        height: 35px;
+    }
+    .nav__close{
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        cursor: pointer;
+    }
+    .nav__list li{
+        display: block;
+        padding: 10px;
+    }
+    .nav__list{
+        z-index: 1000;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        height: 100vh;
+        width: 80%;
+        background: var( --lightGreen-1);
+        margin: 0;
+        padding-right: 2.8rem;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        transform: translateX(0);
+        overflow: hidden;
+        transition: 0.3s ease-out transform;
+
+    }
+    .nav__list.show{
+        transform: translate(-100%);
+    }
 }
