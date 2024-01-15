@@ -31,6 +31,7 @@
     font-weight: 500;
     border-radius: 8px;
     padding: 8px 20px;
+    color: var(--green1);
 }
 .primary-btn{
     background-color: var(--green1);
