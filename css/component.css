@@ -110,12 +110,14 @@ footer{
 }
 .footer__desc{
     font-size: 2rem;
-    width: 300px;
+    color: var(--black-2);
+    max-width: 300px;
     margin-bottom: 1.5rem;
 }
 .footer__socials__heading{
     font-family: Poppins;
     font-size: 1.8rem;
+    font-weight: 500;
     color: var(--black-2);
     margin-bottom: 0.5rem;
 }
@@ -140,7 +142,7 @@ footer{
     width: 20px;
 }
 .footer__socials a{
-    padding: 0.6rem 0.8rem;
+    padding: 0.5rem 0.8rem;
     background: var(--white-1);
     border: 1px solid var(--green1);
     border-radius: 8px;
@@ -158,4 +160,74 @@ footer{
     font-weight: 500;
     color: var(--black-2);
     margin-bottom: 1.5rem;
+}
+@media only screen and (max-width: 768px){
+    .footer__wrapper{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footer__desc{
+        font-size: 1.4rem;;
+        max-width: none
+    }
+    .footer__text__title{
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+    .footer__link a{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+}
+/*OurStoreInfo Styles*/
+.ourStoreInfo__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.ourStoreInfo__icon img{
+    width: 47px;
+    margin-bottom: 2rem;
+}
+.ourStoreInfo__items{
+    background: var(--lightGreen-1);
+    padding: 40px 0px;
+    min-width: 200px;
+    border-radius: 12px;
+    text-align: center;
+}
+.ourStoreInfo__title{
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--black-2);
+    margin-bottom: 1rem;
+}
+.ourStoreInfo__info{
+    font-family: Raleway;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--black-1);
+}
+@media only screen and (max-width: 768px){
+    .ourStoreInfo__wrapper{
+        align-items: center;
+        gap: 1rem;
+    }
+    .ourStoreInfo__items{
+        width: 150px;
+        padding: 20px;
+    }
+    .ourStoreInfo__icon img{
+        width: 30px;
+    }
+    .ourStoreInfo__title{
+       font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    .ourStoreInfo__info{
+        font-size: 1.4rem;
+    }
 }
