@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 html{
     font-size: 10px;
     overflow-x: hidden;
-    box-sizing: border-box;
 }
 :root{
     --green1: #266436;
@@ -32,6 +35,10 @@ h1,h2,h3,h4{
 a{
     display: inline-block;
     text-decoration: none;
+}
+ol, ul{
+    list-style: none;
+    padding: 0;
 }
 section{
     padding: 100px 0;
