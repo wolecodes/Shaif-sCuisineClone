@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css//globalStyles.css">
   <link rel="stylesheet" href="css//component.css">
   <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
   <!--- Navigation section-->
@@ -65,20 +66,19 @@
   </div>
    <!---End Navigation section-->
    <!--Hero Section-->
-   <section id="hero">
+   <section class="hero">
     <div class="container">
       <div class="hero__wrapper">
         <div class="hero__left">
-          <div class="hero__left__text">
-            <h1 class="hero__heading">The flavour of tradition</h1>
-            <p class="hero__info">We are multi-cuisine restaurant offering a wide variety food in both casual and fine dining environment</p>
-          </div>
+          <div class="hero__left__items">
+            <h1 class="hero__heading font-xxl">The flavour of tradition</h1>
+            <p class="hero__info font-xl">We are multi-cuisine restaurant offering a wide variety food in both casual and fine dining environment</p>
           <div class="button__wrapper">
-            <a href="#" class="btn primary-btn">Explore more</a>
+            <a href="menu.html" class="btn primary-btn">Explore menu</a>
             <a href="booking.html" class="btn">Book table</a>
           </div>
+          </div>
         </div>
-
         <div class="hero__right">
           <div class="heroImg__wrapper">
             <img src="./assets/heroImg.png" alt="hero image">
@@ -86,8 +86,8 @@
         </div>
       </div>
     </div>
-    <!--End of Hero Section-->
    </section>
+    <!--End of Hero Section-->
   <script src="js/scipt.js"></script>
 </body>
 </html>

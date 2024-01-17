@@ -2,6 +2,7 @@
 html{
     font-size: 10px;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 :root{
     --green1: #266436;
@@ -19,10 +20,11 @@ body{
     margin: 0;
 }
 p{
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
     font-weight: 400;
     line-height: 1.4em;
     font-size: 1.8rem;
+    margin: 0;
 }
 h1,h2,h3,h4{
     font-family: 'Poppins', sans-serif;
@@ -48,4 +50,18 @@ img{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+.font-xxl{
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+.font-xl{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.font-l{
+    font-size: 1.8rem;
+}
+.font-sm{
+    font-size: 1.4rem
 }

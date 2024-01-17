@@ -1,4 +1,28 @@
 .hero__wrapper{
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+.hero__left{
+    flex: 3;
+}
+.hero__right{
+    flex: 4;
+}
+.heroImg__wrapper img{
+    width: 90%;
+}
+.hero__left__items{
+    max-width: 350px;
+}
+.hero__heading{
+    color: var(--black-2);
+    line-height: 1.4em;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+.hero__info{
+    color: var(--black-2);
+    font-weight: 400;
+    margin-bottom: 2rem;
 }
