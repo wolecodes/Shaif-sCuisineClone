@@ -114,9 +114,10 @@ footer{
     margin-bottom: 1.5rem;
 }
 .footer__socials__heading{
-    font-family: Popins;
+    font-family: Poppins;
     font-size: 1.8rem;
     color: var(--black-2);
+    margin-bottom: 0.5rem;
 }
 
 .footer__socials__list li{
@@ -124,13 +125,7 @@ footer{
     list-style: none;
     margin-right: 0.5rem;
 }
-.footer__socials a {
-	padding: 0.5rem 0.8rem;
-	background-color: var(--white-1);
-	border: 1px solid var(--green2);
-	border-radius: 8px;
-    color: var(--black-2);
-}
+
 .footer__socails svg {
     width: 20px;
 }
@@ -141,6 +136,26 @@ footer{
     flex: 1;
 
 }
-.footer__text_title{
+.footer__socials svg{
+    width: 20px;
+}
+.footer__socials a{
+    padding: 0.6rem 0.8rem;
+    background: var(--white-1);
+    border: 1px solid var(--green1);
+    border-radius: 8px;
+    color: var(--black-2);
+}
+.footer__text__title{
     font-size: 2rem;
+    font-weight: 600;
+    color: var(--black-2);
+    margin-bottom: 2rem;
+}
+.footer__link a{
+    font-family: Raleway;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--black-2);
+    margin-bottom: 1.5rem;
 }
