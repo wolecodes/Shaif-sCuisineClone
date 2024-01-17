@@ -26,3 +26,23 @@
     font-weight: 400;
     margin-bottom: 2rem;
 }
+@media only screen and (max-width: 768px){
+    .hero__wrapper{
+        flex-direction: column-reverse;
+        gap: 5rem;
+    }
+    .heroImg__wrapper{
+        max-width: 400px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .hero__heading{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .hero__info{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+}
