@@ -25,3 +25,5 @@ const navClose = () => {
 navIconEL.addEventListener('click', navOpen);
 navCloseIcon.addEventListener('click', navClose);
 navBgOverlay.addEventListener('click', navClose);
+
+//AOS animation
